@@ -1,5 +1,3 @@
-Creating a complete Django project with all the requested features involves multiple steps. I'll provide you with a general guide on how to approach this project along with creating a basic README file. Please note that this guide assumes you have a basic understanding of Django and web development concepts.
-
 ## Django Quotes Website
 
 This project is a Django-based website that allows users to register, log in, add authors, add quotes, and browse through quotes with pagination.

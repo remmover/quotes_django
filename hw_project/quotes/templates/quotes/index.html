@@ -1,7 +1,12 @@
 {% extends 'quotes/base.html' %}
 
 {% block content %}
-
+        <div class="col-md-4">
+            <p>
+                <a href="{% url 'quotes:add_author' %}" class="btn btn-outline-primary">add author</a>
+                <a href="{% url 'quotes:add_quote' %}" class="btn btn-outline-primary">add quote</a>
+            </p>
+        </div>
 <div class="row">
     <div class="col-md-8">
         {% for quote in quotes %}

@@ -21,9 +21,9 @@
         </div>
         <div class="col-md-4">
             <p>
-                <a href="/login" class="btn btn-outline-primary">SignUp</a>
-                <a href="/login" class="btn btn-outline-primary">SignIn</a>
-                <a href="/login" class="btn btn-outline-primary">Logout</a>
+                <a href="{% url 'users:signup' %}" class="btn btn-outline-primary">Sign Up</a>
+                <a href="{% url 'users:login' %}" class="btn btn-outline-primary">Login</a>
+                <a href="{% url 'users:logout' %}" class="btn btn-outline-primary">Logout</a>
             </p>
         </div>
     </div>
